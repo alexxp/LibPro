@@ -10,6 +10,6 @@
 
 @implementation TestLibProject
 - (void)doSomething {
-    NSLog(@"Just did something ...");
+    NSLog(@"Just did something .. COOL");
 }
 @end
