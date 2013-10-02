@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
 
 s.name         = "LibPro"
-s.version      = "1.2"
+s.version      = "1.3"
 s.summary      = "Meaningful summary  of LibPro."
 
 s.description  = <<-DESC
@@ -24,7 +24,7 @@ s.author       = { "Alexander Prokofiev" => "alexx.prokofiev@gmail.com" }
 s.platform     = :ios, '7.0'
 s.ios.deployment_target = '7.0'
 
-s.source       = { :git => "https://github.com/alexxp/LibPro.git", :tag => "1.2" }
+s.source       = { :git => "https://github.com/alexxp/LibPro.git", :tag => "1.3" }
 
 s.source_files  = 'TestLibProject', 'TestLibProject/**/*.{h,m}'
 s.requires_arc = true
