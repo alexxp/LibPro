@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "cpassword.h"
 
 @interface TestLibProjectTests : XCTestCase
 
@@ -28,7 +29,12 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+//    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+}
+
+- (void)testPassword {
+    XCTAssert([[cpassword unlockString] isEqualToString:@"somepassword"]);
+
 }
 
 @end
